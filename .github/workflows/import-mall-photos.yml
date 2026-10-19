@@ -1,5 +1,5 @@
 
-name: Import licensed mall photos
+name: Import Shop Where SG Mall Photos
 
 on:
   workflow_dispatch:

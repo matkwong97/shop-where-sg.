@@ -1,0 +1,1275 @@
+{
+  "policy": "Partial directory. Missing record never means confirmed absence.",
+  "lastChecked": "2026-10-19",
+  "records": [
+    {
+      "mall": "Bedok Mall",
+      "brand": "Chateraise",
+      "unit": "#B2-19",
+      "hours": null,
+      "source": "https://www.capitaland.com/sg/en/shop/malls/discover/curated-for-you/participating-stores.html",
+      "lastChecked": "2026-10-19",
+      "status": "verified_unit"
+    },
+    {
+      "mall": "Bedok Mall",
+      "brand": "Encik Tan",
+      "unit": "#B1-41 to 42",
+      "hours": null,
+      "source": "https://www.capitaland.com/sg/en/shop/malls/discover/curated-for-you/participating-stores.html",
+      "lastChecked": "2026-10-19",
+      "status": "verified_unit"
+    },
+    {
+      "mall": "Bedok Mall",
+      "brand": "Jollibee",
+      "unit": "#B2-06 & 33",
+      "hours": null,
+      "source": "https://www.capitaland.com/sg/en/shop/malls/discover/curated-for-you/participating-stores.html",
+      "lastChecked": "2026-10-19",
+      "status": "verified_unit"
+    },
+    {
+      "mall": "Bedok Mall",
+      "brand": "Subway",
+      "unit": "#01-94",
+      "hours": null,
+      "source": "https://www.capitaland.com/sg/en/shop/malls/discover/curated-for-you/participating-stores.html",
+      "lastChecked": "2026-10-19",
+      "status": "verified_unit"
+    },
+    {
+      "mall": "Bedok Mall",
+      "brand": "Swensen’s",
+      "unit": "#01-92 to 93",
+      "hours": null,
+      "source": "https://www.capitaland.com/sg/en/shop/malls/discover/curated-for-you/participating-stores.html",
+      "lastChecked": "2026-10-19",
+      "status": "verified_unit"
+    },
+    {
+      "mall": "Bedok Mall",
+      "brand": "The Coffee Bean & Tea Leaf",
+      "unit": "#01-126",
+      "hours": null,
+      "source": "https://www.capitaland.com/sg/en/shop/malls/discover/curated-for-you/participating-stores.html",
+      "lastChecked": "2026-10-19",
+      "status": "verified_unit"
+    },
+    {
+      "mall": "Bedok Mall",
+      "brand": "Pet Lovers Centre",
+      "unit": "#B2-59",
+      "hours": null,
+      "source": "https://www.capitaland.com/sg/en/shop/malls/stores/pet-lovers-centre.html",
+      "lastChecked": "2026-10-19",
+      "status": "verified_unit"
+    },
+    {
+      "mall": "Bedok Mall",
+      "brand": "Eu Yan Sang",
+      "unit": "#B2-16",
+      "hours": null,
+      "source": "https://www.capitaland.com/sg/en/shop/malls/stores/eu-yan-sang.html",
+      "lastChecked": "2026-10-19",
+      "status": "verified_unit"
+    },
+    {
+      "mall": "Bedok Mall",
+      "brand": "The Body Shop",
+      "unit": "#01-26",
+      "hours": null,
+      "source": "https://www.capitaland.com/sg/en/shop/malls/stores/the-body-shop.html",
+      "lastChecked": "2026-10-19",
+      "status": "verified_unit"
+    },
+    {
+      "mall": "Bedok Mall",
+      "brand": "Lenskart",
+      "unit": "#B1-36",
+      "hours": null,
+      "source": "https://www.capitaland.com/sg/en/shop/malls/stores/lenskart.html",
+      "lastChecked": "2026-10-19",
+      "status": "verified_unit"
+    },
+    {
+      "mall": "Bedok Mall",
+      "brand": "Kin Teck Tong",
+      "unit": "#01-45 to 46",
+      "hours": null,
+      "source": "https://www.capitaland.com/sg/en/shop/malls/stores/kin-teck-tong.html",
+      "lastChecked": "2026-10-19",
+      "status": "verified_unit"
+    },
+    {
+      "mall": "Junction 8",
+      "brand": "Genki Sushi",
+      "unit": "#01-22 & 01-30",
+      "hours": null,
+      "source": "https://www.capitaland.com/sg/en/shop/malls/discover/curated-for-you/participating-stores.html",
+      "lastChecked": "2026-10-19",
+      "status": "verified_unit"
+    },
+    {
+      "mall": "Junction 8",
+      "brand": "Chateraise",
+      "unit": "#B1-19B",
+      "hours": null,
+      "source": "https://www.capitaland.com/sg/en/shop/malls/discover/curated-for-you/participating-stores.html",
+      "lastChecked": "2026-10-19",
+      "status": "verified_unit"
+    },
+    {
+      "mall": "Junction 8",
+      "brand": "KFC",
+      "unit": "#01-21",
+      "hours": null,
+      "source": "https://www.capitaland.com/sg/en/shop/malls/discover/curated-for-you/participating-stores.html",
+      "lastChecked": "2026-10-19",
+      "status": "verified_unit"
+    },
+    {
+      "mall": "Junction 8",
+      "brand": "Subway",
+      "unit": "#01-31",
+      "hours": null,
+      "source": "https://www.capitaland.com/sg/en/shop/malls/discover/curated-for-you/participating-stores.html",
+      "lastChecked": "2026-10-19",
+      "status": "verified_unit"
+    },
+    {
+      "mall": "Junction 8",
+      "brand": "Swensen’s",
+      "unit": "#01-39",
+      "hours": null,
+      "source": "https://www.capitaland.com/sg/en/shop/malls/discover/curated-for-you/participating-stores.html",
+      "lastChecked": "2026-10-19",
+      "status": "verified_unit"
+    },
+    {
+      "mall": "Junction 8",
+      "brand": "The Coffee Bean & Tea Leaf",
+      "unit": "#01-34",
+      "hours": null,
+      "source": "https://www.capitaland.com/sg/en/shop/malls/discover/curated-for-you/participating-stores.html",
+      "lastChecked": "2026-10-19",
+      "status": "verified_unit"
+    },
+    {
+      "mall": "Junction 8",
+      "brand": "Din Tai Fung",
+      "unit": "#01-41",
+      "hours": null,
+      "source": "https://www.capitaland.com/sg/en/shop/malls/discover/curated-for-you/participating-stores.html",
+      "lastChecked": "2026-10-19",
+      "status": "verified_unit"
+    },
+    {
+      "mall": "Junction 8",
+      "brand": "Pet Lovers Centre",
+      "unit": "#B1-14",
+      "hours": null,
+      "source": "https://www.capitaland.com/sg/en/shop/malls/stores/pet-lovers-centre.html",
+      "lastChecked": "2026-10-19",
+      "status": "verified_unit"
+    },
+    {
+      "mall": "Junction 8",
+      "brand": "Eu Yan Sang",
+      "unit": "#B1-18",
+      "hours": null,
+      "source": "https://www.capitaland.com/sg/en/shop/malls/stores/eu-yan-sang.html",
+      "lastChecked": "2026-10-19",
+      "status": "verified_unit"
+    },
+    {
+      "mall": "Junction 8",
+      "brand": "The Body Shop",
+      "unit": "#01-44",
+      "hours": null,
+      "source": "https://www.capitaland.com/sg/en/shop/malls/stores/the-body-shop.html",
+      "lastChecked": "2026-10-19",
+      "status": "verified_unit"
+    },
+    {
+      "mall": "Junction 8",
+      "brand": "Lenskart",
+      "unit": "#02-22/23",
+      "hours": null,
+      "source": "https://www.onepa.gov.sg/passion-card/passion-merchants/lenskart",
+      "lastChecked": "2026-10-19",
+      "status": "verified_unit"
+    },
+    {
+      "mall": "Junction 8",
+      "brand": "Kin Teck Tong",
+      "unit": "#02-48",
+      "hours": null,
+      "source": "https://www.capitaland.com/sg/en/shop/malls/stores/kin-teck-tong.html",
+      "lastChecked": "2026-10-19",
+      "status": "verified_unit"
+    },
+    {
+      "mall": "Plaza Singapura",
+      "brand": "Burger King",
+      "unit": "#B1-11",
+      "hours": null,
+      "source": "https://www.capitaland.com/sg/en/shop/malls/discover/curated-for-you/participating-stores.html",
+      "lastChecked": "2026-10-19",
+      "status": "verified_unit"
+    },
+    {
+      "mall": "Plaza Singapura",
+      "brand": "Genki Sushi",
+      "unit": "#06-05 to 06",
+      "hours": null,
+      "source": "https://www.capitaland.com/sg/en/shop/malls/discover/curated-for-you/participating-stores.html",
+      "lastChecked": "2026-10-19",
+      "status": "verified_unit"
+    },
+    {
+      "mall": "Plaza Singapura",
+      "brand": "Haidilao",
+      "unit": "#04-01 & 04-20",
+      "hours": null,
+      "source": "https://www.capitaland.com/sg/en/shop/malls/discover/curated-for-you/participating-stores.html",
+      "lastChecked": "2026-10-19",
+      "status": "verified_unit"
+    },
+    {
+      "mall": "Plaza Singapura",
+      "brand": "KFC",
+      "unit": "#B1-21 to 22",
+      "hours": null,
+      "source": "https://www.capitaland.com/sg/en/shop/malls/discover/curated-for-you/participating-stores.html",
+      "lastChecked": "2026-10-19",
+      "status": "verified_unit"
+    },
+    {
+      "mall": "Plaza Singapura",
+      "brand": "Pet Lovers Centre",
+      "unit": "#B2-19A",
+      "hours": null,
+      "source": "https://www.capitaland.com/sg/en/shop/malls/stores/pet-lovers-centre.html",
+      "lastChecked": "2026-10-19",
+      "status": "verified_unit"
+    },
+    {
+      "mall": "Plaza Singapura",
+      "brand": "Eu Yan Sang",
+      "unit": "#B2-09 to 10",
+      "hours": null,
+      "source": "https://www.capitaland.com/sg/en/shop/malls/stores/eu-yan-sang.html",
+      "lastChecked": "2026-10-19",
+      "status": "verified_unit"
+    },
+    {
+      "mall": "Plaza Singapura",
+      "brand": "The Body Shop",
+      "unit": "#01-02",
+      "hours": null,
+      "source": "https://www.capitaland.com/sg/en/shop/malls/stores/the-body-shop.html",
+      "lastChecked": "2026-10-19",
+      "status": "verified_unit"
+    },
+    {
+      "mall": "Plaza Singapura",
+      "brand": "Lenskart",
+      "unit": "#B1-12",
+      "hours": null,
+      "source": "https://www.capitaland.com/sg/en/shop/malls/stores/lenskart.html",
+      "lastChecked": "2026-10-19",
+      "status": "verified_unit"
+    },
+    {
+      "mall": "Plaza Singapura",
+      "brand": "Kin Teck Tong",
+      "unit": "#06-18",
+      "hours": null,
+      "source": "https://www.capitaland.com/sg/en/shop/malls/stores/kin-teck-tong.html",
+      "lastChecked": "2026-10-19",
+      "status": "verified_unit"
+    },
+    {
+      "mall": "Bugis Junction",
+      "brand": "Pet Lovers Centre",
+      "unit": "#B1-27",
+      "hours": null,
+      "source": "https://www.capitaland.com/sg/en/shop/malls/stores/pet-lovers-centre.html",
+      "lastChecked": "2026-10-19",
+      "status": "verified_unit"
+    },
+    {
+      "mall": "Bugis Junction",
+      "brand": "Eu Yan Sang",
+      "unit": "#B1-03",
+      "hours": null,
+      "source": "https://www.capitaland.com/sg/en/shop/malls/stores/eu-yan-sang.html",
+      "lastChecked": "2026-10-19",
+      "status": "verified_unit"
+    },
+    {
+      "mall": "Bugis Junction",
+      "brand": "The Body Shop",
+      "unit": "#01-26 to 26A, 01-27 to 27A",
+      "hours": null,
+      "source": "https://www.capitaland.com/sg/en/shop/malls/stores/the-body-shop.html",
+      "lastChecked": "2026-10-19",
+      "status": "verified_unit"
+    },
+    {
+      "mall": "Tampines Mall",
+      "brand": "Pet Lovers Centre",
+      "unit": "#B1-25 to 26",
+      "hours": null,
+      "source": "https://www.capitaland.com/sg/en/shop/malls/stores/pet-lovers-centre.html",
+      "lastChecked": "2026-10-19",
+      "status": "verified_unit"
+    },
+    {
+      "mall": "Tampines Mall",
+      "brand": "Eu Yan Sang",
+      "unit": "#B1-17",
+      "hours": null,
+      "source": "https://www.capitaland.com/sg/en/shop/malls/stores/eu-yan-sang.html",
+      "lastChecked": "2026-10-19",
+      "status": "verified_unit"
+    },
+    {
+      "mall": "Tampines Mall",
+      "brand": "The Body Shop",
+      "unit": "#02-30",
+      "hours": null,
+      "source": "https://www.capitaland.com/sg/en/shop/malls/stores/the-body-shop.html",
+      "lastChecked": "2026-10-19",
+      "status": "verified_unit"
+    },
+    {
+      "mall": "Westgate",
+      "brand": "Lenskart",
+      "unit": "#02-38",
+      "hours": null,
+      "source": "https://www.capitaland.com/sg/en/shop/malls/stores/lenskart.html",
+      "lastChecked": "2026-10-19",
+      "status": "verified_unit"
+    },
+    {
+      "mall": "Bedok Mall",
+      "brand": "Watsons",
+      "unit": "#B2-12 to 13",
+      "hours": null,
+      "source": "https://www.capitaland.com/sg/en/shop/malls/stores/watsons.html",
+      "lastChecked": "2026-10-19",
+      "status": "verified_unit"
+    },
+    {
+      "mall": "Bugis Junction",
+      "brand": "Watsons",
+      "unit": "#02-29 to 33A",
+      "hours": null,
+      "source": "https://www.capitaland.com/sg/en/shop/malls/stores/watsons.html",
+      "lastChecked": "2026-10-19",
+      "status": "verified_unit"
+    },
+    {
+      "mall": "Junction 8",
+      "brand": "Watsons",
+      "unit": "#02-45 to 46",
+      "hours": null,
+      "source": "https://www.capitaland.com/sg/en/shop/malls/stores/watsons.html",
+      "lastChecked": "2026-10-19",
+      "status": "verified_unit"
+    },
+    {
+      "mall": "Plaza Singapura",
+      "brand": "Watsons",
+      "unit": "#B2-06",
+      "hours": null,
+      "source": "https://www.capitaland.com/sg/en/shop/malls/stores/watsons.html",
+      "lastChecked": "2026-10-19",
+      "status": "verified_unit"
+    },
+    {
+      "mall": "Raffles City",
+      "brand": "Watsons",
+      "unit": "#B1-42",
+      "hours": null,
+      "source": "https://www.capitaland.com/sg/en/shop/malls/stores/watsons.html",
+      "lastChecked": "2026-10-19",
+      "status": "verified_unit"
+    },
+    {
+      "mall": "Tampines Mall",
+      "brand": "Watsons",
+      "unit": "#B1-07 to 09",
+      "hours": null,
+      "source": "https://www.capitaland.com/sg/en/shop/malls/stores/watsons.html",
+      "lastChecked": "2026-10-19",
+      "status": "verified_unit"
+    },
+    {
+      "mall": "Westgate",
+      "brand": "Watsons",
+      "unit": "#B1-15",
+      "hours": null,
+      "source": "https://www.capitaland.com/sg/en/shop/malls/stores/watsons.html",
+      "lastChecked": "2026-10-19",
+      "status": "verified_unit"
+    },
+    {
+      "mall": "Bedok Mall",
+      "brand": "Guardian",
+      "unit": "#B2-45 to 47",
+      "hours": null,
+      "source": "https://www.capitaland.com/sg/en/shop/malls/stores/guardian-health-beauty.html",
+      "lastChecked": "2026-10-19",
+      "status": "verified_unit"
+    },
+    {
+      "mall": "Bugis Junction",
+      "brand": "Guardian",
+      "unit": "#B1-20 to 21",
+      "hours": null,
+      "source": "https://www.capitaland.com/sg/en/shop/malls/stores/guardian-health-beauty.html",
+      "lastChecked": "2026-10-19",
+      "status": "verified_unit"
+    },
+    {
+      "mall": "Junction 8",
+      "brand": "Guardian",
+      "unit": "#B1-08",
+      "hours": null,
+      "source": "https://www.capitaland.com/sg/en/shop/malls/stores/guardian-health-beauty.html",
+      "lastChecked": "2026-10-19",
+      "status": "verified_unit"
+    },
+    {
+      "mall": "Plaza Singapura",
+      "brand": "Guardian",
+      "unit": "#B2-15",
+      "hours": null,
+      "source": "https://www.capitaland.com/sg/en/shop/malls/stores/guardian-health-beauty.html",
+      "lastChecked": "2026-10-19",
+      "status": "verified_unit"
+    },
+    {
+      "mall": "Raffles City",
+      "brand": "Guardian",
+      "unit": "#B1-02",
+      "hours": null,
+      "source": "https://www.capitaland.com/sg/en/shop/malls/stores/guardian-health-beauty.html",
+      "lastChecked": "2026-10-19",
+      "status": "verified_unit"
+    },
+    {
+      "mall": "Tampines Mall",
+      "brand": "Guardian",
+      "unit": "#B1-18 to 19",
+      "hours": null,
+      "source": "https://www.capitaland.com/sg/en/shop/malls/stores/guardian-health-beauty.html",
+      "lastChecked": "2026-10-19",
+      "status": "verified_unit"
+    },
+    {
+      "mall": "Westgate",
+      "brand": "Guardian",
+      "unit": "#B1-20",
+      "hours": null,
+      "source": "https://www.capitaland.com/sg/en/shop/malls/stores/guardian-health-beauty.html",
+      "lastChecked": "2026-10-19",
+      "status": "verified_unit"
+    },
+    {
+      "mall": "Bedok Mall",
+      "brand": "OWNDAYS",
+      "unit": "#01-60 to 61",
+      "hours": null,
+      "source": "https://www.capitaland.com/sg/en/shop/malls/stores/owndays.html",
+      "lastChecked": "2026-10-19",
+      "status": "verified_unit"
+    },
+    {
+      "mall": "Bugis Junction",
+      "brand": "OWNDAYS",
+      "unit": "#01-58 to 59A",
+      "hours": null,
+      "source": "https://www.capitaland.com/sg/en/shop/malls/stores/owndays.html",
+      "lastChecked": "2026-10-19",
+      "status": "verified_unit"
+    },
+    {
+      "mall": "Plaza Singapura",
+      "brand": "OWNDAYS",
+      "unit": "#03-04",
+      "hours": null,
+      "source": "https://www.capitaland.com/sg/en/shop/malls/stores/owndays.html",
+      "lastChecked": "2026-10-19",
+      "status": "verified_unit"
+    },
+    {
+      "mall": "Raffles City",
+      "brand": "OWNDAYS",
+      "unit": "#B1-41",
+      "hours": null,
+      "source": "https://www.capitaland.com/sg/en/shop/malls/stores/owndays.html",
+      "lastChecked": "2026-10-19",
+      "status": "verified_unit"
+    },
+    {
+      "mall": "Westgate",
+      "brand": "OWNDAYS",
+      "unit": "#02-42",
+      "hours": null,
+      "source": "https://www.capitaland.com/sg/en/shop/malls/stores/owndays.html",
+      "lastChecked": "2026-10-19",
+      "status": "verified_unit"
+    },
+    {
+      "mall": "Bedok Mall",
+      "brand": "Spectacle Hut",
+      "unit": "#01-79",
+      "hours": null,
+      "source": "https://www.capitaland.com/sg/en/shop/malls/stores/spectacle-hut.html",
+      "lastChecked": "2026-10-19",
+      "status": "verified_unit"
+    },
+    {
+      "mall": "Bugis Junction",
+      "brand": "Spectacle Hut",
+      "unit": "#01-43 to 44",
+      "hours": null,
+      "source": "https://www.capitaland.com/sg/en/shop/malls/stores/spectacle-hut.html",
+      "lastChecked": "2026-10-19",
+      "status": "verified_unit"
+    },
+    {
+      "mall": "Plaza Singapura",
+      "brand": "Spectacle Hut",
+      "unit": "#B1-16",
+      "hours": null,
+      "source": "https://www.capitaland.com/sg/en/shop/malls/stores/spectacle-hut.html",
+      "lastChecked": "2026-10-19",
+      "status": "verified_unit"
+    },
+    {
+      "mall": "Raffles City",
+      "brand": "Spectacle Hut",
+      "unit": "#B1-32 to 33",
+      "hours": null,
+      "source": "https://www.capitaland.com/sg/en/shop/malls/stores/spectacle-hut.html",
+      "lastChecked": "2026-10-19",
+      "status": "verified_unit"
+    },
+    {
+      "mall": "Westgate",
+      "brand": "Spectacle Hut",
+      "unit": "#B1-33 to 34",
+      "hours": null,
+      "source": "https://www.capitaland.com/sg/en/shop/malls/stores/spectacle-hut.html",
+      "lastChecked": "2026-10-19",
+      "status": "verified_unit"
+    },
+    {
+      "mall": "Bedok Mall",
+      "brand": "Ya Kun Kaya Toast",
+      "unit": "#B2-K17 to K19",
+      "hours": null,
+      "source": "https://www.capitaland.com/sg/en/shop/malls/stores/ya-kun-kaya-toast.html",
+      "lastChecked": "2026-10-19",
+      "status": "verified_unit"
+    },
+    {
+      "mall": "Bugis Junction",
+      "brand": "Ya Kun Kaya Toast",
+      "unit": "#B1-11",
+      "hours": null,
+      "source": "https://www.capitaland.com/sg/en/shop/malls/stores/ya-kun-kaya-toast.html",
+      "lastChecked": "2026-10-19",
+      "status": "verified_unit"
+    },
+    {
+      "mall": "Junction 8",
+      "brand": "Ya Kun Kaya Toast",
+      "unit": "#B1-03 to 05",
+      "hours": null,
+      "source": "https://www.capitaland.com/sg/en/shop/malls/stores/ya-kun-kaya-toast.html",
+      "lastChecked": "2026-10-19",
+      "status": "verified_unit"
+    },
+    {
+      "mall": "Plaza Singapura",
+      "brand": "Ya Kun Kaya Toast",
+      "unit": "#04-70 to 71",
+      "hours": null,
+      "source": "https://www.capitaland.com/sg/en/shop/malls/stores/ya-kun-kaya-toast.html",
+      "lastChecked": "2026-10-19",
+      "status": "verified_unit"
+    },
+    {
+      "mall": "Raffles City",
+      "brand": "Ya Kun Kaya Toast",
+      "unit": "#B1-05",
+      "hours": null,
+      "source": "https://www.capitaland.com/sg/en/shop/malls/stores/ya-kun-kaya-toast.html",
+      "lastChecked": "2026-10-19",
+      "status": "verified_unit"
+    },
+    {
+      "mall": "Westgate",
+      "brand": "Ya Kun Kaya Toast",
+      "unit": "#B1-K1 to K4",
+      "hours": null,
+      "source": "https://www.capitaland.com/sg/en/shop/malls/stores/ya-kun-kaya-toast.html",
+      "lastChecked": "2026-10-19",
+      "status": "verified_unit"
+    },
+    {
+      "mall": "Bugis Junction",
+      "brand": "Toast Box",
+      "unit": "#01-67",
+      "hours": null,
+      "source": "https://www.capitaland.com/sg/en/shop/malls/stores/toast-box.html",
+      "lastChecked": "2026-10-19",
+      "status": "verified_unit"
+    },
+    {
+      "mall": "Junction 8",
+      "brand": "Toast Box",
+      "unit": "#01-35 to 36",
+      "hours": null,
+      "source": "https://www.capitaland.com/sg/en/shop/malls/stores/toast-box.html",
+      "lastChecked": "2026-10-19",
+      "status": "verified_unit"
+    },
+    {
+      "mall": "Tampines Mall",
+      "brand": "Toast Box",
+      "unit": "#01-32",
+      "hours": null,
+      "source": "https://www.capitaland.com/sg/en/shop/malls/stores/toast-box.html",
+      "lastChecked": "2026-10-19",
+      "status": "verified_unit"
+    },
+    {
+      "mall": "Westgate",
+      "brand": "Toast Box",
+      "unit": "#02-02",
+      "hours": null,
+      "source": "https://www.capitaland.com/sg/en/shop/malls/stores/toast-box.html",
+      "lastChecked": "2026-10-19",
+      "status": "verified_unit"
+    },
+    {
+      "mall": "Raffles City",
+      "brand": "Toast Box",
+      "unit": "#B1-44A",
+      "hours": null,
+      "source": "https://www.capitaland.com/sg/en/shop/malls/stores/toast-box.html",
+      "lastChecked": "2026-10-19",
+      "status": "verified_unit"
+    },
+    {
+      "mall": "Bedok Mall",
+      "brand": "Toast Box",
+      "unit": "#B2-26",
+      "hours": null,
+      "source": "https://www.capitaland.com/sg/en/shop/malls/stores/toast-box.html",
+      "lastChecked": "2026-10-19",
+      "status": "verified_unit"
+    },
+    {
+      "mall": "Bedok Mall",
+      "brand": "Starbucks",
+      "unit": "#01-92 to 93",
+      "hours": null,
+      "source": "https://www.capitaland.com/sg/en/shop/malls/stores/starbucks.html",
+      "lastChecked": "2026-10-19",
+      "status": "verified_unit"
+    },
+    {
+      "mall": "Bugis Junction",
+      "brand": "Starbucks",
+      "unit": "#01-106",
+      "hours": null,
+      "source": "https://www.capitaland.com/sg/en/shop/malls/stores/starbucks.html",
+      "lastChecked": "2026-10-19",
+      "status": "verified_unit"
+    },
+    {
+      "mall": "Plaza Singapura",
+      "brand": "Starbucks",
+      "unit": "#01-34B, #01-53",
+      "hours": null,
+      "source": "https://www.capitaland.com/sg/en/shop/malls/stores/starbucks.html",
+      "lastChecked": "2026-10-19",
+      "status": "verified_unit"
+    },
+    {
+      "mall": "Raffles City",
+      "brand": "Starbucks",
+      "unit": "#02-34",
+      "hours": null,
+      "source": "https://www.capitaland.com/sg/en/shop/malls/stores/starbucks.html",
+      "lastChecked": "2026-10-19",
+      "status": "verified_unit"
+    },
+    {
+      "mall": "Westgate",
+      "brand": "Starbucks",
+      "unit": "#02-04",
+      "hours": null,
+      "source": "https://www.capitaland.com/sg/en/shop/malls/stores/starbucks.html",
+      "lastChecked": "2026-10-19",
+      "status": "verified_unit"
+    },
+    {
+      "mall": "NEX",
+      "brand": "H&M",
+      "unit": "#01-12 to 33",
+      "hours": null,
+      "source": "https://www.nex.com.sg/Directory/ShopName",
+      "lastChecked": "2026-10-19",
+      "status": "verified_unit"
+    },
+    {
+      "mall": "NEX",
+      "brand": "4FINGERS CRISPY CHICKEN",
+      "unit": "#B2-50/51",
+      "hours": null,
+      "source": "https://www.nex.com.sg/Directory/ShopName",
+      "lastChecked": "2026-10-19",
+      "status": "verified_unit"
+    },
+    {
+      "mall": "NEX",
+      "brand": "7-ELEVEN",
+      "unit": "#B2-16",
+      "hours": null,
+      "source": "https://www.nex.com.sg/Directory/ShopName",
+      "lastChecked": "2026-10-19",
+      "status": "verified_unit"
+    },
+    {
+      "mall": "NEX",
+      "brand": "The Coffee Bean & Tea Leaf",
+      "unit": "#02-K7 to K13",
+      "hours": null,
+      "source": "https://www.nex.com.sg/Directory/ShopName",
+      "lastChecked": "2026-10-19",
+      "status": "verified_unit"
+    },
+    {
+      "mall": "NEX",
+      "brand": "The Body Shop",
+      "unit": "#01-45",
+      "hours": null,
+      "source": "https://www.nex.com.sg/Directory/ShopName",
+      "lastChecked": "2026-10-19",
+      "status": "verified_unit"
+    },
+    {
+      "mall": "NEX",
+      "brand": "The Green Party",
+      "unit": "#04-55/56",
+      "hours": null,
+      "source": "https://www.nex.com.sg/Directory/ShopName",
+      "lastChecked": "2026-10-19",
+      "status": "verified_unit"
+    },
+    {
+      "mall": "NEX",
+      "brand": "Texas Chicken",
+      "unit": "#04-18/19/20",
+      "hours": null,
+      "source": "https://www.nex.com.sg/Directory/ShopName",
+      "lastChecked": "2026-10-19",
+      "status": "verified_unit"
+    },
+    {
+      "mall": "NEX",
+      "brand": "CHATERAISE",
+      "unit": "#B2-49A",
+      "hours": null,
+      "source": "https://www.nex.com.sg/Directory/ShopName",
+      "lastChecked": "2026-10-19",
+      "status": "verified_unit"
+    },
+    {
+      "mall": "NEX",
+      "brand": "BREADTALK",
+      "unit": "#B2-58/59",
+      "hours": null,
+      "source": "https://www.nex.com.sg/Directory/ShopName",
+      "lastChecked": "2026-10-19",
+      "status": "verified_unit"
+    },
+    {
+      "mall": "NEX",
+      "brand": "COURTS",
+      "unit": "#02-49/50",
+      "hours": null,
+      "source": "https://www.nex.com.sg/Directory/ShopName",
+      "lastChecked": "2026-10-19",
+      "status": "verified_unit"
+    },
+    {
+      "mall": "NEX",
+      "brand": "iStudio",
+      "unit": "#02-45/46",
+      "hours": null,
+      "source": "https://www.nex.com.sg/Directory/ShopName",
+      "lastChecked": "2026-10-19",
+      "status": "verified_unit"
+    },
+    {
+      "mall": "NEX",
+      "brand": "DBS",
+      "unit": "#02-29",
+      "hours": null,
+      "source": "https://www.nex.com.sg/Directory/ShopName",
+      "lastChecked": "2026-10-19",
+      "status": "verified_unit"
+    },
+    {
+      "mall": "NEX",
+      "brand": "ANYTIME FITNESS",
+      "unit": "#04R-73/74/75",
+      "hours": null,
+      "source": "https://www.nex.com.sg/Directory/ShopName",
+      "lastChecked": "2026-10-19",
+      "status": "verified_unit"
+    },
+    {
+      "mall": "NEX",
+      "brand": "ASICS",
+      "unit": "#01-09",
+      "hours": null,
+      "source": "https://www.nex.com.sg/Directory/ShopName",
+      "lastChecked": "2026-10-19",
+      "status": "verified_unit"
+    },
+    {
+      "mall": "NEX",
+      "brand": "Auntie Anne’s",
+      "unit": "#03-K10",
+      "hours": null,
+      "source": "https://www.nex.com.sg/Directory/ShopName",
+      "lastChecked": "2026-10-19",
+      "status": "verified_unit"
+    },
+    {
+      "mall": "Westgate",
+      "brand": "1Gravity",
+      "unit": "#03-27",
+      "hours": null,
+      "source": "https://www.capitaland.com/sg/malls/westgate/en/stores.html",
+      "lastChecked": "2026-10-19",
+      "status": "verified_unit"
+    },
+    {
+      "mall": "Westgate",
+      "brand": "20dB Digisound",
+      "unit": "#04-24",
+      "hours": null,
+      "source": "https://www.capitaland.com/sg/malls/westgate/en/stores.html",
+      "lastChecked": "2026-10-19",
+      "status": "verified_unit"
+    },
+    {
+      "mall": "Westgate",
+      "brand": "328 Katong Laksa",
+      "unit": "#B2-06",
+      "hours": null,
+      "source": "https://www.capitaland.com/sg/malls/westgate/en/stores.html",
+      "lastChecked": "2026-10-19",
+      "status": "verified_unit"
+    },
+    {
+      "mall": "Westgate",
+      "brand": "7-Eleven",
+      "unit": "#02-37",
+      "hours": null,
+      "source": "https://www.capitaland.com/sg/malls/westgate/en/stores.html",
+      "lastChecked": "2026-10-19",
+      "status": "verified_unit"
+    },
+    {
+      "mall": "Westgate",
+      "brand": "Aesop",
+      "unit": "#01-27",
+      "hours": null,
+      "source": "https://www.capitaland.com/sg/malls/westgate/en/stores.html",
+      "lastChecked": "2026-10-19",
+      "status": "verified_unit"
+    },
+    {
+      "mall": "Westgate",
+      "brand": "Ajumma’s",
+      "unit": "#01-07",
+      "hours": null,
+      "source": "https://www.capitaland.com/sg/malls/westgate/en/stores.html",
+      "lastChecked": "2026-10-19",
+      "status": "verified_unit"
+    },
+    {
+      "mall": "Westgate",
+      "brand": "An Acai Affair",
+      "unit": "#B1-30",
+      "hours": null,
+      "source": "https://www.capitaland.com/sg/malls/westgate/en/stores.html",
+      "lastChecked": "2026-10-19",
+      "status": "verified_unit"
+    },
+    {
+      "mall": "Westgate",
+      "brand": "Anjappar",
+      "unit": "#04-08",
+      "hours": null,
+      "source": "https://www.capitaland.com/sg/malls/westgate/en/stores.html",
+      "lastChecked": "2026-10-19",
+      "status": "verified_unit"
+    },
+    {
+      "mall": "Westgate",
+      "brand": "ANTA",
+      "unit": "#01-29",
+      "hours": null,
+      "source": "https://www.capitaland.com/sg/malls/westgate/en/stores.html",
+      "lastChecked": "2026-10-19",
+      "status": "verified_unit"
+    },
+    {
+      "mall": "Bugis Junction",
+      "brand": "Ajisen Ramen",
+      "unit": "#01-01",
+      "hours": null,
+      "source": "https://www.capitaland.com/sg/en/shop/malls/discover/curated-for-you/participating-stores.html",
+      "lastChecked": "2026-10-19",
+      "status": "verified_unit"
+    },
+    {
+      "mall": "Bugis Junction",
+      "brand": "Auntie Anne’s",
+      "unit": "#B1-K5A",
+      "hours": null,
+      "source": "https://www.capitaland.com/sg/en/shop/malls/discover/curated-for-you/participating-stores.html",
+      "lastChecked": "2026-10-19",
+      "status": "verified_unit"
+    },
+    {
+      "mall": "Bugis Junction",
+      "brand": "Bengawan Solo",
+      "unit": "#B1-03A",
+      "hours": null,
+      "source": "https://www.capitaland.com/sg/en/shop/malls/discover/curated-for-you/participating-stores.html",
+      "lastChecked": "2026-10-19",
+      "status": "verified_unit"
+    },
+    {
+      "mall": "Bugis Junction",
+      "brand": "Boost Juice Bars",
+      "unit": "#B1-01A",
+      "hours": null,
+      "source": "https://www.capitaland.com/sg/en/shop/malls/discover/curated-for-you/participating-stores.html",
+      "lastChecked": "2026-10-19",
+      "status": "verified_unit"
+    },
+    {
+      "mall": "Bugis Junction",
+      "brand": "Crystal Jade La Mian Xiao Long Bao",
+      "unit": "#B1-04A",
+      "hours": null,
+      "source": "https://www.capitaland.com/sg/en/shop/malls/discover/curated-for-you/participating-stores.html",
+      "lastChecked": "2026-10-19",
+      "status": "verified_unit"
+    },
+    {
+      "mall": "Bugis Junction",
+      "brand": "Eighteen Chefs",
+      "unit": "#04-06",
+      "hours": null,
+      "source": "https://www.capitaland.com/sg/en/shop/malls/discover/curated-for-you/participating-stores.html",
+      "lastChecked": "2026-10-19",
+      "status": "verified_unit"
+    },
+    {
+      "mall": "Bugis Junction",
+      "brand": "Four Leaves",
+      "unit": "#B1-14 to 15",
+      "hours": null,
+      "source": "https://www.capitaland.com/sg/en/shop/malls/discover/curated-for-you/participating-stores.html",
+      "lastChecked": "2026-10-19",
+      "status": "verified_unit"
+    },
+    {
+      "mall": "Bugis Junction",
+      "brand": "KFC",
+      "unit": "#B1-09",
+      "hours": null,
+      "source": "https://www.capitaland.com/sg/en/shop/malls/discover/curated-for-you/participating-stores.html",
+      "lastChecked": "2026-10-19",
+      "status": "verified_unit"
+    },
+    {
+      "mall": "Bugis Junction",
+      "brand": "Krispy Kreme",
+      "unit": "#B1-03B",
+      "hours": null,
+      "source": "https://www.capitaland.com/sg/en/shop/malls/discover/curated-for-you/participating-stores.html",
+      "lastChecked": "2026-10-19",
+      "status": "verified_unit"
+    },
+    {
+      "mall": "Bugis Junction",
+      "brand": "Ma Maison",
+      "unit": "#02-51",
+      "hours": null,
+      "source": "https://www.capitaland.com/sg/en/shop/malls/discover/curated-for-you/participating-stores.html",
+      "lastChecked": "2026-10-19",
+      "status": "verified_unit"
+    },
+    {
+      "mall": "NEX",
+      "brand": "JOYRE TCMEDI SPA / MEDIGO AESTHETICS",
+      "unit": "#02-27/28",
+      "hours": null,
+      "source": "https://www.nex.com.sg/Directory/ShopName",
+      "lastChecked": "2026-10-19",
+      "status": "verified_unit"
+    },
+    {
+      "mall": "NEX",
+      "brand": "3SIXTY LAB BEAUTY",
+      "unit": "#02-40",
+      "hours": null,
+      "source": "https://www.nex.com.sg/Directory/ShopName",
+      "lastChecked": "2026-10-19",
+      "status": "verified_unit"
+    },
+    {
+      "mall": "NEX",
+      "brand": "3SIXTY LAB NAILS",
+      "unit": "#02-25",
+      "hours": null,
+      "source": "https://www.nex.com.sg/Directory/ShopName",
+      "lastChecked": "2026-10-19",
+      "status": "verified_unit"
+    },
+    {
+      "mall": "NEX",
+      "brand": "A HOT HIDEOUT",
+      "unit": "#B1-76/77",
+      "hours": null,
+      "source": "https://www.nex.com.sg/Directory/ShopName",
+      "lastChecked": "2026-10-19",
+      "status": "verified_unit"
+    },
+    {
+      "mall": "NEX",
+      "brand": "ABURI-EN",
+      "unit": "#01-63/64/65",
+      "hours": null,
+      "source": "https://www.nex.com.sg/Directory/ShopName",
+      "lastChecked": "2026-10-19",
+      "status": "verified_unit"
+    },
+    {
+      "mall": "NEX",
+      "brand": "ACCENTZ",
+      "unit": "#04-K14",
+      "hours": null,
+      "source": "https://www.nex.com.sg/Directory/ShopName",
+      "lastChecked": "2026-10-19",
+      "status": "verified_unit"
+    },
+    {
+      "mall": "NEX",
+      "brand": "AKEMI",
+      "unit": "#02-55",
+      "hours": null,
+      "source": "https://www.nex.com.sg/Directory/ShopName",
+      "lastChecked": "2026-10-19",
+      "status": "verified_unit"
+    },
+    {
+      "mall": "NEX",
+      "brand": "AL THASNEEM TRADERS",
+      "unit": "#B2-13",
+      "hours": null,
+      "source": "https://www.nex.com.sg/Directory/ShopName",
+      "lastChecked": "2026-10-19",
+      "status": "verified_unit"
+    },
+    {
+      "mall": "NEX",
+      "brand": "ALLGOOD GOURMET",
+      "unit": "#B2-49",
+      "hours": null,
+      "source": "https://www.nex.com.sg/Directory/ShopName",
+      "lastChecked": "2026-10-19",
+      "status": "verified_unit"
+    },
+    {
+      "mall": "NEX",
+      "brand": "AN ACAI AFFAIR",
+      "unit": "#B2-53",
+      "hours": null,
+      "source": "https://www.nex.com.sg/Directory/ShopName",
+      "lastChecked": "2026-10-19",
+      "status": "verified_unit"
+    },
+    {
+      "mall": "NEX",
+      "brand": "ASPIRE HUB EDUCATION",
+      "unit": "#04R-79",
+      "hours": null,
+      "source": "https://www.nex.com.sg/Directory/ShopName",
+      "lastChecked": "2026-10-19",
+      "status": "verified_unit"
+    },
+    {
+      "mall": "NEX",
+      "brand": "ASPIRE HUB PRIMARY",
+      "unit": "#04R-78",
+      "hours": null,
+      "source": "https://www.nex.com.sg/Directory/ShopName",
+      "lastChecked": "2026-10-19",
+      "status": "verified_unit"
+    },
+    {
+      "mall": "NEX",
+      "brand": "ASTERSPRING",
+      "unit": "#04-24",
+      "hours": null,
+      "source": "https://www.nex.com.sg/Directory/ShopName",
+      "lastChecked": "2026-10-19",
+      "status": "verified_unit"
+    },
+    {
+      "mall": "NEX",
+      "brand": "AUNTIE ANNE'S",
+      "unit": "#03-K10",
+      "hours": null,
+      "source": "https://www.nex.com.sg/Directory/ShopName",
+      "lastChecked": "2026-10-19",
+      "status": "verified_unit"
+    },
+    {
+      "mall": "NEX",
+      "brand": "AUREUS ACADEMY",
+      "unit": "#04-01A/02",
+      "hours": null,
+      "source": "https://www.nex.com.sg/Directory/ShopName",
+      "lastChecked": "2026-10-19",
+      "status": "verified_unit"
+    },
+    {
+      "mall": "NEX",
+      "brand": "AYAM PENYET RIA",
+      "unit": "#01-57",
+      "hours": null,
+      "source": "https://www.nex.com.sg/Directory/ShopName",
+      "lastChecked": "2026-10-19",
+      "status": "verified_unit"
+    },
+    {
+      "mall": "NEX",
+      "brand": "CHALLENGER",
+      "unit": "#04-33/34",
+      "hours": null,
+      "source": "https://www.nex.com.sg/Directory/ShopName",
+      "lastChecked": "2026-10-19",
+      "status": "verified_unit"
+    },
+    {
+      "mall": "NEX",
+      "brand": "DJI",
+      "unit": "#02-43/44",
+      "hours": null,
+      "source": "https://www.nex.com.sg/Directory/ShopName",
+      "lastChecked": "2026-10-19",
+      "status": "verified_unit"
+    },
+    {
+      "mall": "NEX",
+      "brand": "PRISM+",
+      "unit": "#B1-21A",
+      "hours": null,
+      "source": "https://www.nex.com.sg/Directory/ShopName",
+      "lastChecked": "2026-10-19",
+      "status": "verified_unit"
+    },
+    {
+      "mall": "NEX",
+      "brand": "BENGAWAN SOLO",
+      "unit": "#B2-69",
+      "hours": null,
+      "source": "https://www.nex.com.sg/Directory/ShopName",
+      "lastChecked": "2026-10-19",
+      "status": "verified_unit"
+    },
+    {
+      "mall": "NEX",
+      "brand": "FOUR LEAVES",
+      "unit": "#B2-43",
+      "hours": null,
+      "source": "https://www.nex.com.sg/Directory/ShopName",
+      "lastChecked": "2026-10-19",
+      "status": "verified_unit"
+    },
+    {
+      "mall": "Causeway Point",
+      "brand": "Lenskart",
+      "unit": "#01-11",
+      "hours": null,
+      "source": "https://www.onepa.gov.sg/passion-card/passion-merchants/lenskart",
+      "lastChecked": "2026-10-19",
+      "status": "verified_unit"
+    },
+    {
+      "mall": "Compass One",
+      "brand": "Lenskart",
+      "unit": "#02-03",
+      "hours": null,
+      "source": "https://www.onepa.gov.sg/passion-card/passion-merchants/lenskart",
+      "lastChecked": "2026-10-19",
+      "status": "verified_unit"
+    },
+    {
+      "mall": "Hougang Mall",
+      "brand": "Lenskart",
+      "unit": "#01-06",
+      "hours": null,
+      "source": "https://www.onepa.gov.sg/passion-card/passion-merchants/lenskart",
+      "lastChecked": "2026-10-19",
+      "status": "verified_unit"
+    },
+    {
+      "mall": "NEX",
+      "brand": "Lenskart",
+      "unit": "#01-49",
+      "hours": null,
+      "source": "https://www.onepa.gov.sg/passion-card/passion-merchants/lenskart",
+      "lastChecked": "2026-10-19",
+      "status": "verified_unit"
+    },
+    {
+      "mall": "Northpoint City",
+      "brand": "Lenskart",
+      "unit": "#01-105/106",
+      "hours": null,
+      "source": "https://www.onepa.gov.sg/passion-card/passion-merchants/lenskart",
+      "lastChecked": "2026-10-19",
+      "status": "verified_unit"
+    },
+    {
+      "mall": "Waterway Point",
+      "brand": "Lenskart",
+      "unit": "#01-06 West Wing",
+      "hours": null,
+      "source": "https://www.onepa.gov.sg/passion-card/passion-merchants/lenskart",
+      "lastChecked": "2026-10-19",
+      "status": "verified_unit"
+    }
+  ]
+}

@@ -1,1 +1,18 @@
-{}
+{
+  "NEX": {
+    "src": "/mall-photos/NEX.webp",
+    "credit": "Walter Lim",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+    "page": "https://commons.wikimedia.org/wiki/File:Nex_shopping_mall_side_building_view.jpg",
+    "modified": true
+  },
+  "VivoCity": {
+    "src": "/mall-photos/VivoCity.webp",
+    "credit": "TenthAvenueFreezeOut",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "page": "https://commons.wikimedia.org/wiki/File:VivoCity_Singapore_July_2026.jpg",
+    "modified": true
+  }
+}

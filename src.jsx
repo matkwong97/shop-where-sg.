@@ -346,44 +346,75 @@ function readTripIntent(input,kind){
  return {primary,matched,kind,cuisine,wantsCafe,wantsDessert,maxSpend,requiresDining:!!cuisine||!/^(shopping)$/.test(primary),strict:!!cuisine||wantsCafe||['romantic','celebration','luxury','rainy'].includes(primary),wantsGift:/gift|present|flowers|礼物|禮物|花|hadiah|bunga/i.test(q)};
 }
 function venueTier(brand){return PRICE_EXPLICIT[brand]||({'CUT by Wolfgang Puck':4,'Waku Ghin':4,'Bread Street Kitchen':4,'Imperial Treasure':4,'PUTIEN':3,'Paradise Dynasty':3,'Crystal Jade':3,'Sushi Tei':3,'Itacho Sushi':3,'Beauty in The Pot':4,'HaiDiLao':3,'Genki Sushi':2,'Din Tai Fung':3,'Seoul Garden':3,'Swensen’s Unlimited':3}[brand])||estimatedPrice(brand)||null}
+// V31: Match intent first; rank by specificity, novelty and diversity second.
+const TRIP_OVERUSED=/^(KFC|McDonald’s|Burger King|MOS Burger|Starbucks|The Coffee Bean & Tea Leaf|Guardian|Watsons|Uniqlo|H&M|FairPrice|Kopitiam|Toast Box|Ya Kun Kaya Toast|BreadTalk)$/i;
+const TRIP_EXPLORE_GROUPS={
+ luxury:['Louis Vuitton','Chanel','Dior','Gucci','Prada','Cartier','Bvlgari','Tiffany & Co.','Hermès','CELINE','Fendi','Bottega Veneta','Saint Laurent','Rolex'],
+ gifts:['Sephora','Lush','The Body Shop','TWG Tea','Tiffany & Co.','Cartier','LEGO','Muji','Miniso','Swarovski','Typo','Kinokuniya'],
+ discovery:['Kinokuniya','Muji','LEGO','Nintendo','Toys“R”Us','Decathlon','Daiso','Don Don Donki','Sephora','Lush','Swarovski','Typo','Challenger','Isetan','Takashimaya'],
+ family:['LEGO','Toys“R”Us','Kinokuniya','Decathlon','Nintendo','Daiso','Muji'],
+ quiet:['Kinokuniya','Muji','TWG Tea','Isetan','Takashimaya']
+};
+const TRIP_CAFE_SPECIAL=['% Arabica','Bacha Coffee','Tiong Bahru Bakery','Common Man Coffee Roasters','Huggs Coffee','Luckin Coffee','Joe & Dough','TWG Tea','The Coffee Bean & Tea Leaf','Starbucks','Ya Kun Kaya Toast','Toast Box'];
+const TRIP_FOOD_EXTRA=['Ramen Keisuke','Ajisen Ramen','Ichiban Boshi','Yakiniku Like','Gyu-Kaku','Sushiro','Sushi Express','Sushi Tei','Itacho Sushi','Genki Sushi','Seoul Garden','Ajumma’s','Din Tai Fung','PUTIEN','Paradise Dynasty','Crystal Jade','Imperial Treasure','HaiDiLao','Beauty in The Pot','Bread Street Kitchen','CUT by Wolfgang Puck','Waku Ghin','Swensen’s Unlimited'];
+function shuffleWeighted(items){return items.map(x=>({...x,_jitter:Math.random()})).sort((a,b)=>b.score-a.score||a._jitter-b._jitter)}
+function readRecentTrips(){try{return JSON.parse(sessionStorage.getItem('shopwhere-recent-venues')||'[]')}catch{return []}}
+function rememberTripVenues(plans){try{const old=readRecentTrips();const next=[...plans.flatMap(p=>p.stops.map(st=>st.brand)),...old];sessionStorage.setItem('shopwhere-recent-venues',JSON.stringify([...new Set(next)].slice(0,30)))}catch{}}
+function tripExploreChoices(m,intent,used){
+ const groups=intent.matched.includes('luxury')||intent.primary==='luxury'?['luxury','discovery']:intent.wantsGift?['gifts','discovery']:intent.primary==='family'?['family','discovery']:intent.primary==='solo'?['quiet','discovery']:['discovery','gifts','luxury'];
+ const eligible=groups.flatMap(k=>TRIP_EXPLORE_GROUPS[k]);
+ const picks=[...new Set(eligible)].filter(b=>m.shops.includes(b)&&!used.has(b)&&!TRIP_OVERUSED.test(b));
+ return picks;
+}
 function chooseTripCandidates(malls,intent,origin){
  const weights=VIBE_DINING[intent.primary]||VIBE_DINING.friends;
+ const recent=new Set(readRecentTrips());
  return malls.flatMap(m=>{
   const cafes=m.shops.filter(b=>COFFEE_ONLY.includes(b));
-  // Explicit coffee requirement is mandatory. No coffee in the mall = no trip.
   if(intent.wantsCafe&&!cafes.length)return [];
-  const eligible=intent.cuisine?CUISINE_BRANDS[intent.cuisine]:(intent.primary==='dessert'?COFFEE_ONLY:Object.keys(weights));
-  return m.shops.filter(b=>eligible.includes(b)&&!TRIP_CASUAL.test(b)&&(!intent.wantsCafe||!COFFEE_ONLY.includes(b))).map(brand=>{
-   const tier=venueTier(brand)||2, distance=origin?km(origin.lat,origin.lon,m.lat,m.lon):null;
+  const foodBrands=intent.cuisine?CUISINE_BRANDS[intent.cuisine]:intent.primary==='dessert'?COFFEE_ONLY:[...new Set([...Object.keys(weights),...TRIP_FOOD_EXTRA])];
+  return m.shops.filter(b=>foodBrands.includes(b)&&!TRIP_OVERUSED.test(b)&&(!intent.wantsCafe||!COFFEE_ONLY.includes(b))).map(brand=>{
+   const tier=venueTier(brand)||2,distance=origin?km(origin.lat,origin.lon,m.lat,m.lon):null;
    if(intent.maxSpend!=null&&[0,0,10,30,70][tier]>intent.maxSpend)return null;
-   const coffee= intent.wantsCafe?cafes.filter(c=>c!==brand):[];
+   const coffee=intent.wantsCafe?cafes.filter(c=>c!==brand):[];
    if(intent.wantsCafe&&!coffee.length)return null;
-   const score=(weights[brand]||6)*10+(intent.cuisine?100:0)+(intent.matched.includes('luxury')&&tier===4?15:0)+(intent.matched.includes('budget')&&tier<=2?15:0);
-   return {mall:m,brand,tier,distance,score,coffees:coffee};
+   const explore=tripExploreChoices(m,intent,new Set([brand]));
+   const occasionWeight=weights[brand]||0;
+   // Don't mistake a random catalogue match for a romantic restaurant.
+   if(['romantic','luxury','celebration'].includes(intent.primary)&&!intent.cuisine&&occasionWeight<6)return null;
+   const score=(intent.cuisine?60:0)+occasionWeight*7+(recent.has(brand)?-28:15)+(TRIP_OVERUSED.test(brand)?-35:0)+Math.min(12,explore.length*2)+(intent.matched.includes('luxury')&&tier===4?12:0)+(intent.matched.includes('budget')&&tier<=2?12:0)-(distance!=null?Math.min(10,distance*.3):0);
+   return {mall:m,brand,tier,distance,score,coffees:coffee,explore};
   }).filter(Boolean);
- }).sort((a,b)=>b.score-a.score||(a.distance??999)-(b.distance??999));
+ }).sort((a,b)=>b.score-a.score);
 }
-let lastSurpriseSignature='';
 function generateTrips(malls,input,kind,origin){
  const intent=readTripIntent(input,kind),pool=chooseTripCandidates(malls,intent,origin);
  if(!pool.length)return [];
- const desired=intent.strict?[2,3,4]:intent.matched.includes('budget')?[1,2,3]:[2,3,4];
- const chosen=[],usedBrands=new Set(),usedMalls=new Set(),usedCafes=new Set();
- // Rotate among the top credible candidates. The same user prompt should not always yield identical shops.
- const offset=Math.floor(Math.random()*Math.min(7,pool.length));
- const rotated=[...pool.slice(offset),...pool.slice(0,offset)];
- const pick=(arr)=>arr.find(x=>!usedMalls.has(x.mall.name)&&!usedBrands.has(x.brand))||arr.find(x=>!usedMalls.has(x.mall.name))||null;
- for(const tier of desired){const x=pick(rotated.filter(c=>c.tier===tier));if(x){chosen.push(x);usedBrands.add(x.brand);usedMalls.add(x.mall.name)}}
- for(const x of rotated){if(chosen.length>=3)break;if(!usedMalls.has(x.mall.name)&&!usedBrands.has(x.brand)){chosen.push(x);usedBrands.add(x.brand);usedMalls.add(x.mall.name)}}
+ const recent=new Set(readRecentTrips()),chosen=[],usedMalls=new Set(),usedMeals=new Set(),usedCafes=new Set(),usedExplore=new Set();
+ const preferredTiers=intent.strict?[2,3,4]:intent.matched.includes('budget')?[1,2,3]:[2,3,4];
+ const candidates=pool.map(x=>({...x,score:x.score+(Math.random()-.5)*16}));
+ function bestCandidate(tier){
+  return candidates.filter(x=>!usedMalls.has(x.mall.name)&&!usedMeals.has(x.brand)&&(tier==null||x.tier===tier)).sort((a,b)=>{
+   const aa=a.score+(recent.has(a.brand)?-18:0),bb=b.score+(recent.has(b.brand)?-18:0);
+   return bb-aa;
+  })[0];
+ }
+ for(const tier of preferredTiers){const x=bestCandidate(tier);if(x){chosen.push(x);usedMalls.add(x.mall.name);usedMeals.add(x.brand)}}
+ while(chosen.length<3){const x=bestCandidate(null);if(!x)break;chosen.push(x);usedMalls.add(x.mall.name);usedMeals.add(x.brand)}
  const labels={1:'Budget',2:'Value',3:'Mid-range',4:'Premium'};
- return chosen.slice(0,3).map((x,i)=>{
+ const plans=chosen.map((x,i)=>{
   const m=x.mall,stops=[{label:intent.cuisine?`${intent.cuisine[0].toUpperCase()+intent.cuisine.slice(1)} food`:intent.primary==='romantic'?'Date-night dining':intent.primary==='celebration'?'Celebration meal':'Eat',brand:x.brand}];
-  if(intent.wantsCafe){const coffee=x.coffees.find(b=>!usedCafes.has(b))||x.coffees[i%x.coffees.length];usedCafes.add(coffee);stops.push({label:'Then coffee',brand:coffee})}
-  else if(intent.wantsDessert){const dessert=m.shops.find(b=>CAFE_BRANDS.includes(b)&&b!==x.brand);if(dessert)stops.push({label:'Then dessert',brand:dessert})}
-  else if(intent.wantsGift){const gift=TRIP_GIFTS.find(b=>m.shops.includes(b));if(gift)stops.push({label:'Optional gift stop',brand:gift})}
-  else if(!intent.strict){const shop=m.shops.find(b=>estimatedPrice(b)==null&&!TRIP_CASUAL.test(b));if(shop)stops.push({label:'Optional explore',brand:shop})}
+  if(intent.wantsCafe){
+   const cafe=x.coffees.slice().sort((a,b)=>(usedCafes.has(a)?100:0)+(recent.has(a)?20:0)+(TRIP_CAFE_SPECIAL.indexOf(a)<0?25:TRIP_CAFE_SPECIAL.indexOf(a))-(usedCafes.has(b)?100:0)-(recent.has(b)?20:0)-(TRIP_CAFE_SPECIAL.indexOf(b)<0?25:TRIP_CAFE_SPECIAL.indexOf(b)))[0];
+   if(cafe){stops.push({label:'Then coffee',brand:cafe});usedCafes.add(cafe)}
+  }else if(intent.wantsDessert){const dessert=m.shops.find(b=>CAFE_BRANDS.includes(b)&&b!==x.brand&&!usedCafes.has(b));if(dessert){stops.push({label:'Then dessert',brand:dessert});usedCafes.add(dessert)}}
+  const explore=x.explore.filter(b=>!usedExplore.has(b)&&!recent.has(b))[0]||x.explore.find(b=>!usedExplore.has(b));
+  if(explore&&!intent.wantsCafe){stops.push({label:intent.wantsGift?'Optional gift browsing':'Optional discovery stop',brand:explore});usedExplore.add(explore)}
+  else if(explore&&/explore|shop|browse|walk|逛|买|買|购物|購物|beli|kedai/i.test(input)){stops.push({label:'Then explore',brand:explore});usedExplore.add(explore)}
   return {mall:m,vibe:intent.primary,budgetTier:x.tier,budgetLabel:labels[x.tier],distance:x.distance,stops};
  });
+ rememberTripVenues(plans);
+ return plans;
 }
 function singleTripText(plan,input){
  const lines=['SHOP WHERE SG · YOUR MINI ITINERARY',`Vibe: ${VIBE_NAMES[plan.vibe]||VIBE_NAMES.general}`,`Budget: ${'$'.repeat(plan.budgetTier)} (${plan.budgetLabel}, indicative)`,input.trim()?`Your idea: ${input.trim()}`:null,'',`📍 ${plan.mall.name}`,`${plan.mall.address}, Singapore ${plan.mall.postal}`,''];

@@ -18,3 +18,20 @@
 
 /* V18: progressive multilingual activity discovery */
 textarea{font:inherit}.activity-block{padding-bottom:3px}.step-heading{display:flex;align-items:flex-start;gap:11px;margin-bottom:12px}.step-heading>div{flex:1;min-width:0}.step-heading label{font-size:15px;margin:0 0 4px}.step-heading p{font-size:12px;line-height:1.5;color:#71838e;margin:0}.step-number{background:#e5f5f1;color:#137d71;width:29px;height:29px;border-radius:10px;display:grid;place-items:center;font-size:13px;font-weight:800;flex-shrink:0}.optional{font-size:10px;color:#71838e;background:#f2f6f5;border-radius:15px;padding:5px 9px;white-space:nowrap}.activity-input{width:100%;border:1px solid #dbe5e8;border-radius:12px;background:#fbfcfc;outline:none;resize:vertical;min-height:85px;padding:14px;color:#203c4e;line-height:1.6}.activity-input:focus,.inputwrap:focus-within{border-color:#16877f;box-shadow:0 0 0 3px #16877f19}.activity-examples{display:flex;flex-wrap:wrap;gap:7px;margin-top:10px}.activity-examples button{border:1px solid #d9e8e5;background:#f4faf8;color:#237c71;border-radius:20px;font-size:11px;padding:7px 10px;text-align:left}.field-divider{height:1px;background:#e8eeee;margin:22px 0}.intent-preview{font-size:12px;color:#516f78;margin-top:12px;padding:12px;border-radius:10px;background:#f2f9f7}.intent-preview .chips{margin-top:7px}.intent-chip{background:#dcefe9;color:#167b6d;border-radius:20px;padding:6px 9px;font-size:11px;font-weight:700}.postal-search{border-top:1px solid #e8eeee;padding-top:20px;margin-top:22px}.activity-result{background:#f5faf8;border:1px solid #e2efeb;border-radius:10px;padding:12px;margin-top:14px}.activity-result strong{font-size:12px;color:#187b72}.activity-result>small{display:block;color:#75868e;font-size:10px;margin-top:9px}.activity-result-list{display:grid;gap:8px;margin-top:10px}.activity-result-list>div{display:grid;gap:3px}.activity-result-list span{font-size:12px;font-weight:700}.activity-result-list small{color:#657d87;font-size:11px;line-height:1.5}.activity-yes{color:#17806f}.activity-no{color:#9a6863}@media(max-width:600px){.step-heading{gap:8px}.step-heading label{font-size:13px}.optional{font-size:9px;padding:5px 7px}.activity-examples button{font-size:10px}}
+
+/* V19: adaptive, supported-sentence suggestions */
+.activity-guide{margin-top:12px;padding:12px;background:#f7faf9;border:1px solid #deebe8;border-radius:12px}
+.activity-guide-title{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:5px;margin-bottom:9px;font-size:12px;font-weight:750;color:#1b756d}
+.activity-guide-title small{font-size:10px;font-weight:400;color:#71858a}
+.activity-completions{display:grid;gap:6px}
+.activity-completions button{display:flex;align-items:center;justify-content:space-between;gap:10px;background:white;color:#234b54;border:1px solid #e0eae8;border-radius:9px;padding:10px 11px;font-size:12px;text-align:left;line-height:1.4}
+.activity-completions button:hover,.activity-completions button:focus-visible{background:#eaf7f3;border-color:#65b5a8;outline:none}
+.activity-completions button span{color:#188579;flex-shrink:0}
+
+/* V21: discreet suggestions only while typing, anchored to the activity field */
+.activity-autocomplete{position:relative;z-index:5}
+.activity-dropdown{position:absolute;top:calc(100% + 4px);left:0;right:0;z-index:20;background:#fff;border:1px solid #d7e6e3;border-radius:12px;box-shadow:0 12px 30px rgba(24,58,62,.16);padding:7px;max-height:245px;overflow-y:auto}
+.activity-dropdown-label{font-size:11px;color:#56767a;padding:6px 9px;font-weight:650}
+.activity-dropdown button{display:flex;justify-content:space-between;align-items:center;width:100%;text-align:left;padding:10px;border:0;background:white;border-radius:8px;font-size:12px;color:#244b54;gap:12px}
+.activity-dropdown button:hover,.activity-dropdown button:focus-visible{background:#e9f6f2;outline:2px solid #b2ded3}
+.activity-dropdown button span{color:#168475;flex-shrink:0}

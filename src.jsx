@@ -24,7 +24,7 @@ const MALLS=[
 ['Compass One','1 Sengkang Square','545078',1.3922,103.8954,['Starbucks','Guardian','KFC','Uniqlo','FairPrice','Watsons']],
 ['Hougang Mall','90 Hougang Avenue 10','538766',1.3725,103.8938,['Starbucks','Guardian','KFC','FairPrice','Popular']],
 ['Bedok Mall','311 New Upper Changi Road','467360',1.3247,103.9290,['Starbucks','Guardian','KFC','Uniqlo','FairPrice','Watsons']],
-['Parkway Parade','80 Marine Parade Road','449269',1.3011,103.9053,['Starbucks','Guardian','KFC','Uniqlo','FairPrice','Watsons']]
+['Parkway Parade','80 Marine Parade Road','449269',1.3011,103.9053,['Starbucks','Guardian','KFC','Uniqlo','FairPrice','Watsons']],
 ['The Shoppes at Marina Bay Sands','2 Bayfront Avenue','018972',1.2837,103.8590,['Louis Vuitton','Chanel','Gucci','Prada','Dior','Hermès','Cartier','Bvlgari','Rolex','Tiffany & Co.','Saint Laurent','Bottega Veneta','Fendi','Burberry','CELINE','Ralph Lauren','TWG Tea','Bread Street Kitchen','CUT by Wolfgang Puck','Waku Ghin']],
 ['Paragon','290 Orchard Road','238859',1.3039,103.8356,['Gucci','Prada','Burberry','Miu Miu','Givenchy','Jimmy Choo','Longchamp','Tiffany & Co.','Din Tai Fung','Crystal Jade']],
 ['Ngee Ann City','391 Orchard Road','238872',1.3026,103.8346,['Louis Vuitton','Chanel','Dior','Cartier','Hermès','Tiffany & Co.','Takashimaya','Bvlgari','Rolex','Starbucks']],

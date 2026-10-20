@@ -35,3 +35,31 @@ textarea{font:inherit}.activity-block{padding-bottom:3px}.step-heading{display:f
 .activity-dropdown button{display:flex;justify-content:space-between;align-items:center;width:100%;text-align:left;padding:10px;border:0;background:white;border-radius:8px;font-size:12px;color:#244b54;gap:12px}
 .activity-dropdown button:hover,.activity-dropdown button:focus-visible{background:#e9f6f2;outline:2px solid #b2ded3}
 .activity-dropdown button span{color:#168475;flex-shrink:0}
+
+/* V22 occasion discovery and tenant actions */
+.occasion-area{margin-bottom:20px;border-bottom:1px solid #e4eceb;padding-bottom:16px}
+.occasion-heading{font-size:12px;letter-spacing:.05em;font-weight:800;color:#277a72;margin-bottom:9px}
+.occasion-card{background:linear-gradient(110deg,#f6faf8,#fff9f2);border:1px solid #e2eae5;border-radius:13px;padding:13px;margin-bottom:8px}
+.occasion-title{display:flex;align-items:center;justify-content:space-between;gap:10px;font-weight:800;color:#214d4c}
+.occasion-title small{color:#6a7778;font-size:11px;font-weight:600;white-space:nowrap}
+.occasion-actions{display:flex;flex-wrap:wrap;gap:7px;margin-top:10px}
+.occasion-actions button{border:1px solid #bcdcd4;background:white;color:#19695f;border-radius:9px;padding:9px 11px;font-size:12px;cursor:pointer;text-align:left}
+.occasion-actions button:hover{background:#e8f6f0}
+.tenant-links{display:flex;flex-wrap:wrap;gap:8px;margin-top:9px}
+.tenant-links a{display:inline-block;border:1px solid #d6e8e5;background:#f4faf8;border-radius:8px;padding:8px 10px;color:#16685f;font-size:12px;text-decoration:none;line-height:1.4}
+
+.booking-available{margin:10px 0;padding:9px 12px;border:1px solid #c9e6da;border-radius:10px;background:#f1faf6;color:#236957;font-size:12px;font-weight:600}
+
+.price-metric{display:inline-flex;gap:7px;align-items:center;margin:5px 0;color:#21745e;font-weight:750;font-size:14px}
+.price-info{position:relative;display:inline-block}
+.price-info summary{display:inline-flex;align-items:center;justify-content:center;width:18px;height:18px;border:1px solid #92a4a1;border-radius:50%;font-size:12px;color:#526d67;background:#f6f9f8;cursor:pointer;list-style:none}
+.price-info summary::-webkit-details-marker{display:none}
+.price-info-popup{position:relative;z-index:10;width:min(310px,75vw);background:white;color:#273b39;box-shadow:0 8px 25px #173c3126;border:1px solid #d9e8e3;border-radius:12px;padding:12px;font-size:12px;font-weight:400}
+.price-info-popup p{margin:8px 0;line-height:1.45}
+.price-info-popup b{color:#18755c}
+.price-info-popup small{display:block;line-height:1.4}
+
+.price-range{font-size:12px;color:#52665f;font-weight:500}.price-metric{flex-wrap:wrap;gap:5px}.price-info-popup{max-width:calc(100vw - 64px)}
+
+/* V26: price ranges appear only after the user opens the info guide */
+.price-metric .price-range{display:none!important}
